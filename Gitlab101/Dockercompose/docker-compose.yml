@@ -9,9 +9,9 @@ services:
     restart: always
     hostname: 'localhost'
     container_name: gitlab-ce
-    environment:
-      GITLAB_OMNIBUS_CONFIG: |
-        external_url 'http://localhost'
+        #environment:cd
+      #GITLAB_OMNIBUS_CONFIG: |
+      # external_url 'http://localhost'
     ports:
       - '8080:80'
       - '8443:443'
